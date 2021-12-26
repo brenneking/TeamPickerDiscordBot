@@ -56,4 +56,4 @@ async def on_message(ctx):
         embed.add_field(name='Map', value=maps[random.randint(0, 3)], inline=False)
         await ctx.channel.send(embed=embed)
 
-client.run('NzM2NTA0ODAzNDIwNTM2ODQz.XxvxjA.VfIbRcSGMpMStsD8GbFDwndzPKE')
+client.run('Insert Bot Token Here')
