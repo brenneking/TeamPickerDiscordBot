@@ -53,7 +53,7 @@ async def on_message(ctx):
         embed = discord.Embed(title='Teams', description='Here are the teams. Good luck!', color=discord.Color.red())
         embed.add_field(name='Attackers', value=teamA_Str, inline=True)
         embed.add_field(name='Defenders', value=teamB_Srt, inline=True)
-        embed.add_field(name='Map', value=maps[random.randint(0, len(maps)-1], inline=False)
+        embed.add_field(name='Map', value=maps[random.randint(0, len(maps)-1)], inline=False)
         await ctx.channel.send(embed=embed)
 
 client.run('Insert Bot Token Here')
